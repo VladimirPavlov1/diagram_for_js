@@ -1,0 +1,94 @@
+.input-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    display: block;
+    width: 50%;
+    padding: 2px 0;
+    margin: 40px 20px;
+}
+#transfer{
+    position: relative;
+    width: 355px;
+    height: 4px;
+    background-color:black;
+    appearance: none;
+    &::before{
+        position: absolute;
+        content: "";
+        bottom:-13px;
+        left: 0;
+        width: 10px;
+        height: 30px;
+        background-color: black;
+    }
+    &::after{
+        position: absolute;
+        content: "";
+        bottom:-13px;
+        right: 0;
+        width: 10px;
+        height: 30px;
+        background-color: black;
+    }
+}
+#transfer::-webkit-slider-thumb{
+    appearance: none;
+    width: 15px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#storage{
+    position: relative;
+    width: 355px;
+    height: 4px;
+    background-color:black;
+    appearance: none;
+    &::before{
+        position: absolute;
+        content: "";
+        bottom:-13px;
+        left: 0;
+        width: 10px;
+        height: 30px;
+        background-color: black;
+    }
+    &::after{
+        position: absolute;
+        content: "";
+        bottom:-13px;
+        right: 0;
+        width: 10px;
+        height: 30px;
+        background-color: black;
+       
+        
+    }
+    
+}
+#storage::-webkit-slider-thumb{
+    appearance: none;
+    width: 15px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.transfer-input{
+   &__0{
+    display: block;
+    
+   }
+}
+.span-thumb{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 5px;
+}

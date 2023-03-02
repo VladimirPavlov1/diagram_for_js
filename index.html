@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diagram</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="grid-wrap">
+          <div class="grid vertical" >
+            <div class="grid__element" style="--width-value:80%" data-name="dog" title="dog"></div>
+            <div class="grid__element" style="--width-value:25%" data-name="cat" title="cat"></div>
+            <div class="grid__element" style="--width-value:50%" data-name="mouse" title="mouse"></div>
+            <div class="grid__element" style="--width-value:40%" data-name="chicken" title="chicken"></div>
+            <div class="grid__element" style="--width-value:70%" data-name="pig" title="pig"></div>
+            <div class="grid__element" style="--width-value:60%" data-name="cow" title="cow"></div>
+            <div class="grid__element" style="--width-value:40%" data-name="elephant" title="elephant"></div>
+            <div class="grid__element" style="--width-value:30%" data-name="sheep" title="sheep"></div>
+            
+          </div>
+        </div>
+       
+      </div>
+   
+    </header>
+    <main>
+      <div class="container">
+        <div class="input-flex">
+          <label for="transfer" class="transfer-input">
+            <div class="span-thumb">
+              <span class="transfer-input__0">1</span>
+            <span class="transfer-input__0">1000</span>
+            </div>
+            <input class="input" name="transfer" type="range" id="transfer" min="0" max="1000" step="1">
+          </label>
+          <label for="storage"class="storage-input">
+           <div class="span-thumb">
+            <span class="storage-input__1">1</span>
+            <span class="storage-input__1">1000</span>
+           </div>
+            <input class="input" type="range" id="storage" min="0" max="1000" step="1">
+          </label>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
